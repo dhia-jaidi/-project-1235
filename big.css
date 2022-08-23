@@ -1,0 +1,54 @@
+ 
+ 
+ nav{
+    display: flex;
+    justify-content: space-between;
+
+
+}  
+
+header nav{
+    display: flex;
+    top: 0;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+  
+     }
+     nav {
+border: 300px;
+margin-bottom: 300px;
+
+
+     }
+     nav ul{
+        border: 250px;
+ 
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+     }
+     header nav ul{
+        display: flex;
+
+        list-style: none;
+        }
+        header nav ul li{
+            margin-left: 40px;
+        }
+        ul {
+            
+            font-size: 21px;
+        }
+        header nav ul li a:hover{
+            color: white;;
+      }
+      a{
+        color: black;
+      }
+      ::selection{
+        background-color: #000000;
+        color: #ffffff;
+
+        }
+        
