@@ -1,54 +1,79 @@
- 
- 
- nav{
-    display: flex;
-    justify-content: space-between;
+ nav {
+     display: flex;
+     justify-content: space-between;
+     position: sticky;
 
+ }
 
-}  
+ nav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     margin-top: 30px;
+     font-size: 20px;
+     padding-right: 100px;
 
-header nav{
-    display: flex;
-    top: 0;
-    justify-content: space-between;
-    width: 85%;
-    margin: 0 auto;
-  
-     }
-     nav {
-border: 300px;
-margin-bottom: 300px;
+ }
 
+ li {
+     float: left;
+ }
 
-     }
-     nav ul{
-        border: 250px;
- 
-        width: 300px;
-        display: flex;
-        justify-content: space-between;
-     }
-     header nav ul{
-        display: flex;
+ li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+ }
 
-        list-style: none;
-        }
-        header nav ul li{
-            margin-left: 40px;
-        }
-        ul {
-            
-            font-size: 21px;
-        }
-        header nav ul li a:hover{
-            color: white;;
-      }
-      a{
-        color: black;
-      }
-      ::selection{
-        background-color: #000000;
-        color: #ffffff;
+ li a:hover {
+     background-color: #111;
+ }
 
-        }
-        
+ .dh img {
+     max-width: 100%;
+     width: 30%;
+     border-radius: 0.75rem;
+     margin-left: 100px;
+     margin-top: 50px;
+
+ }
+
+ div p {
+     font-family: Poppins;
+     font-style: normal;
+     font-size: 1rem;
+     line-height: 190%;
+     color: #fff;
+ }
+
+ .h2 {
+     color: #6aaa74;
+     font-family: Oswald;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 1.625rem;
+     line-height: 110.7%;
+     letter-spacing: -.05rem;
+     text-transform: uppercase;
+     text-align: center;
+     position: relative;
+     bottom: 500px;
+     left: 250px;
+ }
+
+ .bro{
+     width: 50%;
+     font-family: Poppins;
+     font-style: normal;
+     font-size: 1rem;
+     line-height: 190%;
+     color: #fff;
+     display: flex;
+     float: right;
+     border: 20px dotted black;
+     position: relative;
+     bottom:500px;
+}
